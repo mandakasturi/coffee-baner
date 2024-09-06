@@ -1,0 +1,75 @@
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: cursive;
+    }
+    body{
+        background-image: url("images.jpeg");
+        background-size: cover;
+        background-position: center;
+        padding: 80px 80px;
+    }
+    .container{
+        height: 90%;
+        width: 70%;
+        border: solid 1px gray;
+        box-shadow: 5px 5px 15px rgb(82, 24, 24);
+        padding: 20px 20px;
+        backdrop-filter: blur(2px);
+        margin-left: 20%;
+        margin-top: 20px;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        margin: 10PX;
+        font-size: 40px;
+    }
+    .container nav ul {
+        display: flex;
+
+        gap: 30px;
+    }
+    .container nav ul li{
+        list-style: none;
+    }
+    .container nav ul li a{
+        font-size: 29px;
+    }
+    .container nav ul li:hover{
+        background-color: black;
+    }
+    .content{
+        display: flex;
+        
+        width: 30%;
+        align-items: center;
+        gap: 1rem;
+    }
+    .content .text{
+        color: black;
+    }
+    .content .text h1{
+        font-size: 30px;
+    }
+    .content .text p{
+        margin-top: 25px;
+        font-size: 20px;
+    }
+    .content .image{
+        height: 350px;
+    }
+    .content .image img{
+        height: 250px;
+        margin-left: 350px;
+        margin-top: 60px;
+    }
+    nav h1:hover{
+        color: black;
+    }
+    nav ul li:hover{
+        color: black;
+    }
+
